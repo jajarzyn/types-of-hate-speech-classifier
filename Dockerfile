@@ -1,6 +1,17 @@
 FROM python:3.11.1-slim
 
-COPY . /types-of-hate-speech-classifier
+#RUN apt-get install curl -y && \
+#    curl -O https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh \
+#    && bash script.deb.sh
+
+RUN mkdir /types-of-hate-speech-classifier
+
+COPY src /types-of-hate-speech-classifier/src
+COPY data /types-of-hate-speech-classifier/data
+COPY res /types-of-hate-speech-classifier/res
+COPY requirements.txt /types-of-hate-speech-classifier/requirements.txt
+
+RUN ls -l
 
 WORKDIR /types-of-hate-speech-classifier
 

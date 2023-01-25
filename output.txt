@@ -1,2 +1,0 @@
-Micro-Average F-score = 85.20%
-Macro-Average F-score = 35.82%

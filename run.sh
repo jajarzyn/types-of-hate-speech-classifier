@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo Loading docker image...
+echo Building docker image...
 
-docker load < hate_env.tar.gz
+docker build -f Dockerfile -t mjarzyna/hate_clf .
 
 echo Running container and prediction data...
 
