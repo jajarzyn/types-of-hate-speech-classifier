@@ -1,0 +1,16 @@
+{
+  "additional_special_tokens": [],
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "do_lowercase_and_remove_accent": false,
+  "id2lang": null,
+  "lang2id": null,
+  "mask_token": "<mask>",
+  "model_max_length": 512,
+  "name_or_path": "allegro/herbert-base-cased",
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "special_tokens_map_file": "/home/mjarzyna/.cache/huggingface/hub/models--allegro--herbert-base-cased/snapshots/50e33e0567be0c0b313832314c586e3df0dc2297/special_tokens_map.json",
+  "tokenizer_class": "HerbertTokenizer",
+  "unk_token": "<unk>"
+}
